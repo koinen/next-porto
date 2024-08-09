@@ -6,7 +6,7 @@ const About = () => {
   return (
     <main>
       <Navbar/>
-      <div className="mx-auto w-full max-w-[1980px] flex p-8 justify-around gap-10">
+      <div className="mx-auto w-full max-w-[1980px] flex flex-col lg:flex-row p-8 justify-around gap-10">
         <div className='px-8 pb-10 w-full'>   
             <div className='justify-center align-middle gap-8'>
                 <Image
@@ -18,7 +18,7 @@ const About = () => {
                 />
                 <div>
                     <h1 className='text-center py-6 text-2xl font-semibold'>David Bakti Lodianto</h1>
-                    <h3 className='text-center mt-2 text-lg'>13523083 <br /> IF - Ganesha</h3>
+                    <h3 className='text-center mt-2 text-lg'>13523083 <br /> IF - Ganesha <br /> david.lodianto@gmail.com</h3>
                 </div>
             </div>
         </div>
@@ -32,7 +32,7 @@ const About = () => {
                     <h1 className='pb-3 text-xl font-semibold text-[#699528]'>EDUCATION</h1>
                     <ul>
                         <li className='font-light text-sm'>August 2023 - Now
-                            <p className='font-semibold text-base'>Bachelor in Informatics</p> 
+                            <p className='font-semibold text-base'>Computer Science</p> 
                             <p className='font-medium text-base'>Institut Teknologi Bandung</p>
                         </li>
                         <li className='font-light text-sm pt-4'>July 2020 - April 2023
@@ -51,7 +51,7 @@ const About = () => {
                     <h1 className='pb-3 text-xl font-semibold text-[#699528]'>CERTIFICATES</h1>
                     <ul>
                         <li className='font-light text-sm'>2022
-                            <p className='font-semibold text-base'>Peserta OSP Informatika 2022</p> 
+                            <p className='font-semibold text-base'>Participant in OSP Informatika 2022</p> 
                             <p className='font-medium text-base'>Provinsi Jawa Timur</p>
                         </li>
                     </ul>
@@ -117,12 +117,6 @@ const About = () => {
                                     src="/haskell.png"
                                     height={30}
                                     width={50}
-                                    alt="js"
-                                />
-                                <Image
-                                    src="/mysql.png"
-                                    height={30}
-                                    width={80}
                                     alt="js"
                                 />
                             </div>

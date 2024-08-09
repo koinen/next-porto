@@ -6,22 +6,31 @@ import About from '../About/page'
 const Navbar = () => {
   return (
     <>
-        <div className = "bg-white flex px-10 py-7 w-full min-w-[960px] justify-between">
+        <div className = "bg-white flex justify-between px-10 py-7 w-full">
             <Link href="/">
                 <Image 
                     src="/favicon.ico"
                     width={40}
                     height={100}
                     alt="Logo"
+                    className='hidden md:block'
                 />
             </Link>
-            <div className='w-1/4 flex justify-between gap-3 my-auto'>
-                <Link href="/" className='text-xl font-semibold'> Home </Link>
-                <Link href="/Projects" className='text-xl font-semibold'> Projects </Link>
-                <Link href="/About" className='text-xl font-semibold'> About Me </Link>
+            <div className="bg-white min-h-[60vh] md:min-h-fit md:min-w-fit w-full flex justify-center md:justify-end items-center px-5 mx-auto">
+                <ul className='flex md:flex-row flex-col justify-center items-center gap-3 my-auto text-center'> 
+                    <li>
+                        <Link href="/" className='text-xl font-semibold opacity-50 hover:opacity-100 transition-opacity duration-300'> Home </Link>
+                    </li>
+                    <li>
+                        <Link href="/Projects" className='text-xl font-semibold opacity-50 hover:opacity-100 transition-opacity duration-300'> Projects </Link>
+                    </li>
+                    <li>
+                        <Link href="/About" className='text-xl font-semibold opacity-50 hover:opacity-100 transition-opacity duration-300'> About Me </Link>
+                    </li>
+                </ul>
             </div>
         </div>
-        <hr className="mx-6 border-t border-gray-300 min-w-[960px]" />
+        <hr className="mx-auto border-t border-gray-300 w-[95%]" />
     </>
   )
 }

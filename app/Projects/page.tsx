@@ -15,17 +15,17 @@ const Projects = () => {
                 </div>
                 <p className='my-auto text-xl text-right'>Contributed in creating the frontend in pages Talkshow and Tutorial.</p>
             </div>
-            <div className='flex space-around'>
+            <div className='flex flex-col xl:flex-row space-around'>
                 <Image
                     src="/impact_tutor.png"
-                    width={625}
+                    width={600}
                     height={1000}
                     alt="Tutor page IMPACT 2024"
                     className='mx-auto pt-10'
                 />
                 <Image
                     src="/impact_talkshow.png"
-                    width={625}
+                    width={600}
                     height={1000}
                     alt="Talkshow page IMPACT 2024"
                     className='mx-auto pt-10'
