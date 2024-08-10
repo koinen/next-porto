@@ -7,13 +7,13 @@ const Projects = () => {
     <main>
       <Navbar/>
       <div className="mx-auto w-full max-w-[1980px] flex-col p-8">
-        <div className='px-8 pb-10'>   
+        <div className='px-3 md:px-6 lg:px-8 pb-10'>   
             <div className='flex justify-between'>
                 <div>
-                    <h1 className='text-5xl font-bold text-[#699528]'>IMPACT 2024</h1>
-                    <h3 className='pt-2 text-2xl text-gray-500'>Frontend Contributor</h3>
+                    <h1 className='text-3xl lg:text-5xl font-bold text-[#699528]'>IMPACT 2024</h1>
+                    <h3 className='pt-2 text-lg lg:text-2xl text-gray-500'>Frontend Contributor</h3>
                 </div>
-                <p className='my-auto text-xl text-right'>Contributed in creating the frontend in pages Talkshow and Tutorial.</p>
+                <p className='my-auto text-md lg:text-xl text-right'>Contributed in creating the frontend in pages Talkshow and Tutorial.</p>
             </div>
             <div className='flex flex-col xl:flex-row space-around'>
                 <Image
@@ -32,17 +32,17 @@ const Projects = () => {
                 />
             </div>
         </div>
-        <hr className="mx-6 border-t border-gray-300 min-w-[960px]" />
-        <div className='px-8 p-10'>   
+        <hr className="mx-auto border-t border-gray-300 w-[95%]" />
+        <div className='px-3 md:px-6 lg:px-8 p-10'>   
             <div className='flex justify-between'>
                 <div>
-                    <h1 className='text-5xl font-bold text-[#699528]'>CRUD API</h1>
-                    <h3 className='pt-2 text-2xl text-gray-500'>Simple Go CRUD API</h3>
+                    <h1 className='text-3xl lg:text-5xl font-bold text-[#699528]'>CRUD API</h1>
+                    <h3 className='pt-2 text-lg lg:text-2xl text-gray-500'>Simple Go CRUD API</h3>
                 </div>
                 <div>
-                    <p className='my-auto text-xl text-right'>Made a simpe API that can do simple CRUD (Create, Update, Read, Delete) on a sample data (.json file)< br/> with Go.</p>
+                    <p className='my-auto text-md lg:text-xl text-right'>Made a simpe API that can do simple CRUD (Create, Update, Read, Delete) on a sample data (.json file)< br/> with Go.</p>
                     <div className='w-full flex justify-end pt-2'>    
-                        <a href="https://github.com/koinen/crud-go" className='underline'>View Project...</a>
+                        <a href="https://github.com/koinen/crud-go" className='underline text-md'>View Project...</a>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@ const Projects = () => {
                 />
             </div>
         </div>
-        <hr className="mx-6 border-t border-gray-300 min-w-[960px]" />
+        <hr className="mx-auto border-t border-gray-300 w-[95%]" />
       </div>
     </main>
   )

@@ -8,7 +8,7 @@ export default function Home() {
       <div className="flex justify-center gap-1">
         <Image 
           src="/Illustration9.png"
-          width={440}
+          width={200}
           height={100}
           alt="illustration i did"
           className="lg:hidden"
@@ -40,7 +40,7 @@ export default function Home() {
                 alt="instagram"
               />
             </a>
-            <a href="www.linkedin.com/in/david-bakti-lodianto/" className="opacity-50 hover:opacity-100 transition-opacity duration-300">
+            <a href="https://www.linkedin.com/in/david-bakti-lodianto/" className="opacity-50 hover:opacity-100 transition-opacity duration-300">
               <Image
                 src="/linkedin.png"
                 width={20}

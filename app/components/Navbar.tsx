@@ -16,7 +16,7 @@ const Navbar = () => {
                     className='hidden md:block'
                 />
             </Link>
-            <div className="bg-white min-h-[60vh] md:min-h-fit md:min-w-fit w-full flex justify-center md:justify-end items-center px-5 mx-auto">
+            <div className="bg-white min-h-[10%] md:min-h-fit md:min-w-fit w-full flex justify-center md:justify-end items-center px-5 mx-auto">
                 <ul className='flex md:flex-row flex-col justify-center items-center gap-3 my-auto text-center'> 
                     <li>
                         <Link href="/" className='text-xl font-semibold opacity-50 hover:opacity-100 transition-opacity duration-300'> Home </Link>
